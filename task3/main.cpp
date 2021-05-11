@@ -205,7 +205,7 @@ int main(int argc, char** argv) {
         double res_fidelity = fidelity(b, b_n, chunk_size, rank);
 
         if (rank == 0) {
-            cout << noise << " " << time << " " << 1 - es_fidelity << endl;
+            cout << noise << " " << time << " " << 1 - res_fidelity << endl;
         }
 
         MPI_Finalize();
