@@ -14,6 +14,14 @@
 
 `./main <n> <k>` to generate input and output arrays, `./main <n> <k> test` to test with generated arrays.  
 
+## Task 3
+
+### Run
+
+- `make mpi_mac && mpirun -np <proc_num> ./main <n> <noise> [test]`  
+
+`./main <n> <noise>` to generate input and output arrays, `./main <n> <noise> test` to test with generated arrays.  
+
 ## Author
 
 Evgeniy Kislov
