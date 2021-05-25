@@ -20,7 +20,13 @@
 
 - `make mpi_mac && mpirun -np <proc_num> ./main <n> <noise> [test]`  
 
-`./main <n> <noise>` to generate input and output arrays, `./main <n> <noise> test` to test with generated arrays.  
+`./main <n> <noise>` to generate input and output arrays, `./main <n> <noise> test` to test with generated arrays.
+
+## Task 4 + 5
+
+- `make`
+
+- `mpirun -np <n> ./test <mode>`, where mode - ROT, CROT, QFT, ...
 
 ## Author
 
